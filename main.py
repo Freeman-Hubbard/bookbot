@@ -21,6 +21,7 @@ letter_list = list(count_letters(book).items())
 letter_list.sort(key=lambda x:x[0])
 letter_dict = dict(letter_list)
 
+#Alternative for sorting list back into an object
 # for letter in letter_dict:
 #     print(letter)
 # letterList = {k : v for k, v in sorted(letter_count.items())}
